@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cocoon · Beauté & Bien-Être — Institut Paris 14</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="cocoon.css">
+</head>
+<body>
+
+<!-- ===================== INTRO CURTAIN ===================== -->
+<div class="intro" id="intro">
+  <div class="intro__inner">
+    <p class="intro__eyebrow">Institut de beauté · Paris 14</p>
+    <h1 class="intro__word" aria-label="Cocoon">Cocoon</h1>
+    <span class="intro__line" aria-hidden="true"></span>
+    <p class="intro__tag">Le luxe de se déposer</p>
+  </div>
+</div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#top" class="brand">Cocoon<span class="dot">.</span></a>
+    <nav class="nav__links">
+      <a href="#soins">Soins</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#avis">Avis</a>
+      <a href="#pratique">Infos</a>
+      <a href="#faq">Questions</a>
+    </nav>
+    <div class="nav__cta">
+      <span class="nav__tel">01 45 43 14 14</span>
+      <a href="#reserver" class="btn" data-book>Réserver <span class="arr">→</span></a>
+      <button class="nav__burger" id="burger" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- mobile sheet -->
+<div class="sheet" id="sheet">
+  <a href="#soins"><span class="n">01</span> Soins</a>
+  <a href="#tarifs"><span class="n">02</span> Tarifs</a>
+  <a href="#avis"><span class="n">03</span> Avis</a>
+  <a href="#pratique"><span class="n">04</span> Infos pratiques</a>
+  <a href="#faq"><span class="n">05</span> Questions</a>
+  <a href="#reserver" data-book class="sheet__book"><span class="n">→</span> Réserver</a>
+  <div class="sheet__foot">
+    <span>12 Av. Jean Moulin, 75014 Paris</span>
+    <span>01 45 43 14 14</span>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero__ghost" aria-hidden="true">Cocoon</div>
+  <div class="wrap">
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow reveal">Institut de beauté · Paris 14<sup></sup></p>
+        <h1 class="display reveal" data-d="1">
+          Le luxe<br>
+          <span class="l2">de se <em>déposer.</em></span>
+        </h1>
+        <div class="hero__sub reveal" data-d="2">
+          <p class="lede">Un institut de proximité où l'épilation, le soin du visage et le massage se vivent comme un retrait du monde — sans précipitation, à votre rythme.</p>
+          <div class="hero__actions">
+            <a href="#reserver" class="btn btn--lg" data-book>Réserver en ligne <span class="arr">→</span></a>
+            <a href="#soins" class="link-underline">Voir les soins</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__media reveal" data-d="2">
+        <image-slot class="img-slot hero-slot" id="cocoon-hero" shape="rect" fit="cover" placeholder="Portrait — soin en cabine"></image-slot>
+        <div class="hero__tag">
+          <span class="rating"><span class="stars">★★★★<span style="opacity:.45">★</span></span></span>
+          <b>4,4</b> · 182 avis Google
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__rule reveal" data-d="3">
+      <span class="k">Nos signatures</span>
+      <div class="marquee">
+        <span>Épilation cire bio</span>
+        <span>Soin découverte</span>
+        <span>Massage californien</span>
+        <span>Beauté des mains</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="about" id="about">
+  <div class="wrap about__grid">
+    <div class="about__media reveal">
+      <image-slot class="img-slot about-main" id="cocoon-about-main" shape="rect" fit="cover" placeholder="Intérieur de l'institut"></image-slot>
+      <image-slot class="img-slot about-small" id="cocoon-about-detail" shape="rect" fit="cover" placeholder="Détail · matières"></image-slot>
+    </div>
+    <div class="about__body">
+      <p class="eyebrow reveal">La maison — depuis le 14<sup>e</sup></p>
+      <h2 class="section-title reveal" data-d="1">Un institut de <em>quartier</em>,<br>une exigence de maison.</h2>
+      <p class="reveal" data-d="2">Avenue Jean Moulin, Cocoon cultive depuis des années une idée simple : prendre soin, vraiment. Des praticiennes qui prennent le temps, des produits choisis avec soin, une cire bio pour les peaux sensibles. Pas de temps mort, pas de gestes pressés.</p>
+      <p class="reveal" data-d="2">Ici on vient pour une épilation et l'on repart apaisée — c'est ce qui fait revenir nos clientes, certaines depuis plus de quinze ans.</p>
+      <div class="about__stats reveal" data-d="3">
+        <div class="stat"><div class="n"><em>15</em> ans</div><div class="l">De fidélité</div></div>
+        <div class="stat"><div class="n">182</div><div class="l">Avis Google</div></div>
+        <div class="stat"><div class="n"><em>4,4</em><span style="font-size:.5em">★</span></div><div class="l">Note moyenne</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOINS ===================== -->
+<section class="soins" id="soins">
+  <div class="wrap">
+    <div class="soins__head">
+      <div>
+        <p class="eyebrow reveal">Le menu des soins</p>
+        <h2 class="section-title reveal" data-d="1">Chaque geste,<br>une <em>parenthèse.</em></h2>
+      </div>
+      <p class="lede reveal" data-d="2">Quatre familles de soins, pensées pour s'enchaîner ou se vivre seules. Les durées s'ajustent en cabine selon votre peau.</p>
+    </div>
+
+    <div class="soin-list" id="tarifs">
+      <div class="soin reveal" data-book data-soin="Épilation cire bio" role="button" tabindex="0">
+        <span class="idx">01</span>
+        <div>
+          <div class="soin__name">Épilation <em>cire bio</em></div>
+          <div class="soin__desc">Cire végétale douce pour les peaux sensibles, du sourcil au corps entier.</div>
+        </div>
+        <span class="soin__go" aria-hidden="true">Réserver <span class="arr">→</span></span>
+        <div class="soin__price">dès 12 €<small>à confirmer</small></div>
+      </div>
+      <div class="soin reveal" data-book data-soin="Soin découverte visage" role="button" tabindex="0">
+        <span class="idx">02</span>
+        <div>
+          <div class="soin__name">Soin <em>découverte</em> visage</div>
+          <div class="soin__desc">Une heure de chouchoutage continu — nettoyage, modelage, masque sur-mesure.</div>
+        </div>
+        <span class="soin__go" aria-hidden="true">Réserver <span class="arr">→</span></span>
+        <div class="soin__price">dès 65 €<small>à confirmer</small></div>
+      </div>
+      <div class="soin reveal" data-book data-soin="Massage californien" role="button" tabindex="0">
+        <span class="idx">03</span>
+        <div>
+          <div class="soin__name">Massage <em>californien</em></div>
+          <div class="soin__desc">Modelage enveloppant du corps, longs mouvements fluides — relâchement profond.</div>
+        </div>
+        <span class="soin__go" aria-hidden="true">Réserver <span class="arr">→</span></span>
+        <div class="soin__price">dès 75 €<small>à confirmer</small></div>
+      </div>
+      <div class="soin reveal" data-book data-soin="Mains & vernis" role="button" tabindex="0">
+        <span class="idx">04</span>
+        <div>
+          <div class="soin__name">Mains & <em>vernis</em></div>
+          <div class="soin__desc">Beauté des mains, pose de vernis classique ou semi-permanent.</div>
+        </div>
+        <span class="soin__go" aria-hidden="true">Réserver <span class="arr">→</span></span>
+        <div class="soin__price">dès 25 €<small>à confirmer</small></div>
+      </div>
+    </div>
+    <p class="soins__note reveal">Tarifs indicatifs à confirmer — communiquez-moi votre grille et je l'intègre au mot près.</p>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section class="gallery">
+  <div class="wrap">
+    <div class="gallery__head">
+      <p class="eyebrow reveal">En images</p>
+      <h2 class="section-title reveal" data-d="1">L'institut, <em>en lumière.</em></h2>
+    </div>
+    <div class="gallery__grid">
+      <image-slot class="img-slot g1 reveal" id="cocoon-gal-1" shape="rect" fit="cover" placeholder="Cabine de soin"></image-slot>
+      <image-slot class="img-slot g2 reveal" data-d="1" id="cocoon-gal-2" shape="rect" fit="cover" placeholder="Praticienne · geste"></image-slot>
+      <image-slot class="img-slot g3 reveal" data-d="2" id="cocoon-gal-3" shape="rect" fit="cover" placeholder="Détail produits"></image-slot>
+      <image-slot class="img-slot g4 reveal" data-d="1" id="cocoon-gal-4" shape="rect" fit="cover" placeholder="Accueil / vitrine"></image-slot>
+      <image-slot class="img-slot g5 reveal" data-d="2" id="cocoon-gal-5" shape="rect" fit="cover" placeholder="Ambiance · panoramique"></image-slot>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REVIEWS ===================== -->
+<section class="reviews on-dark" id="avis">
+  <div class="wrap">
+    <div class="reviews__top reveal">
+      <div class="score">
+        <div class="big">4,4<sup>★</sup></div>
+        <div class="score__meta">
+          <div class="stars">★★★★<span style="opacity:.4">★</span></div>
+          <div class="src">182 avis · Google</div>
+        </div>
+      </div>
+      <div class="reviews__bars">
+        <div class="bar"><span>5</span><div class="track"><div class="fill" style="--w:.72"></div></div><span>72%</span></div>
+        <div class="bar"><span>4</span><div class="track"><div class="fill" style="--w:.14"></div></div><span>14%</span></div>
+        <div class="bar"><span>3</span><div class="track"><div class="fill" style="--w:.06"></div></div><span>6%</span></div>
+        <div class="bar"><span>2</span><div class="track"><div class="fill" style="--w:.03"></div></div><span>3%</span></div>
+        <div class="bar"><span>1</span><div class="track"><div class="fill" style="--w:.05"></div></div><span>5%</span></div>
+      </div>
+    </div>
+
+    <div class="reviews__quotes">
+      <div class="quote-lead reveal">
+        <blockquote>« Soin découverte <em>incroyable</em>. La praticienne passe toute l'heure à nous chouchouter, pas de temps mort. Un moment unique que je conseille à <em>100 %</em>. »</blockquote>
+        <div class="cite">
+          <span class="av">V</span>
+          <span><b>Valérie S.</b> — cliente Google · il y a 4 mois</span>
+        </div>
+      </div>
+      <div class="quote-side">
+        <div class="qcard reveal" data-d="1">
+          <div class="stars">★★★★★</div>
+          <p>« Qualité des produits remarquable. C'est vraiment un moment unique. »</p>
+          <div class="who">Avis Google vérifié</div>
+        </div>
+        <div class="qcard reveal" data-d="2">
+          <div class="stars">★★★★★</div>
+          <p>« Un institut de proximité avec un vrai sens du détail — cliente fidèle depuis des années. »</p>
+          <div class="who">Avis Google vérifié</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews__cta reveal">
+      <a href="https://www.google.com/maps" target="_blank" rel="noopener" class="btn btn--light">Lire les 182 avis <span class="arr">→</span></a>
+      <span style="font-size:13px;color:var(--sage-soft);letter-spacing:.04em">Avis réels issus de la fiche Google de l'institut.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRATIQUE ===================== -->
+<section class="pratique" id="pratique">
+  <div class="wrap pratique__grid">
+    <div class="pratique__info">
+      <p class="eyebrow reveal">Infos pratiques</p>
+      <h2 class="section-title reveal" data-d="1">Nous <em>trouver.</em></h2>
+      <div class="info-rows reveal" data-d="2">
+        <div class="info-row">
+          <span class="k">Adresse</span>
+          <span class="v">12 Av. Jean Moulin<span class="small">75014 Paris · Métro Alésia / Porte d'Orléans</span></span>
+        </div>
+        <div class="info-row">
+          <span class="k">Téléphone</span>
+          <span class="v"><a href="tel:+33145431414">01 45 43 14 14</a></span>
+        </div>
+        <div class="info-row">
+          <span class="k">Horaires</span>
+          <span class="v">Mar – Sam · 10:00 – 19:00<span class="small">Fermé le dimanche et le lundi</span></span>
+        </div>
+        <div class="info-row">
+          <span class="k">En ligne</span>
+          <span class="v"><a href="https://cocoonbeaute.com" target="_blank" rel="noopener">cocoonbeaute.com</a></span>
+        </div>
+      </div>
+      <div class="status reveal"><span class="pip"></span> Fermé · ouvre à 10:00 mercredi</div>
+    </div>
+    <div class="pratique__map reveal" data-d="1">
+      <image-slot class="img-slot map-slot" id="cocoon-map" shape="rect" fit="cover" placeholder="Plan / vue de la rue — 12 Av. Jean Moulin"></image-slot>
+      <div class="map-pin"><span class="dot"></span><span class="lbl">Cocoon · Paris 14</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="faq" id="faq">
+  <div class="wrap faq__grid">
+    <div class="faq__intro">
+      <p class="eyebrow reveal">Questions fréquentes</p>
+      <h2 class="section-title reveal" data-d="1">Avant de <em>venir.</em></h2>
+      <p class="lede reveal" data-d="2">Une question qui n'est pas ici ? Appelez-nous, on vous répond avec plaisir.</p>
+      <a href="tel:+33145431414" class="btn btn--ghost reveal" data-d="2">Nous appeler <span class="arr">→</span></a>
+    </div>
+    <div class="acc reveal" data-d="1">
+      <div class="acc__item">
+        <button class="acc__q">Faut-il réserver à l'avance ?<span class="acc__sign"></span></button>
+        <div class="acc__a"><div class="acc__a__in">C'est vivement conseillé, surtout en fin de semaine. La réservation en ligne est disponible à toute heure, ou par téléphone pendant nos horaires d'ouverture.</div></div>
+      </div>
+      <div class="acc__item">
+        <button class="acc__q">Votre cire convient-elle aux peaux sensibles ?<span class="acc__sign"></span></button>
+        <div class="acc__a"><div class="acc__a__in">Oui. Nous utilisons une cire bio formulée pour limiter les rougeurs et respecter les peaux réactives. Signalez toute sensibilité à votre praticienne en début de soin.</div></div>
+      </div>
+      <div class="acc__item">
+        <button class="acc__q">Combien de temps dure un soin ?<span class="acc__sign"></span></button>
+        <div class="acc__a"><div class="acc__a__in">De 15 minutes pour une épilation ciblée à une heure pleine pour le soin découverte ou un massage. La durée vous est confirmée à la réservation.</div></div>
+      </div>
+      <div class="acc__item">
+        <button class="acc__q">Proposez-vous des cartes cadeaux ?<span class="acc__sign"></span></button>
+        <div class="acc__a"><div class="acc__a__in">Un bon cadeau peut être établi pour un soin précis ou un montant libre. Demandez-le à l'institut — c'est l'attention idéale.</div></div>
+      </div>
+      <div class="acc__item">
+        <button class="acc__q">Comment venir et se garer ?<span class="acc__sign"></span></button>
+        <div class="acc__a"><div class="acc__a__in">Nous sommes au 12 avenue Jean Moulin, à quelques pas du métro Alésia. Stationnement de surface dans les rues adjacentes.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer on-dark" id="reserver">
+  <div class="wrap">
+    <div class="footer__cta reveal">
+      <h2>Offrez-vous<br>une <em>parenthèse.</em></h2>
+      <a href="https://cocoonbeaute.com" target="_blank" rel="noopener" class="btn btn--light btn--lg" data-book>Réserver en ligne <span class="arr">→</span></a>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__col footer__brand">
+        <div class="b">Cocoon<span class="dot">.</span></div>
+        <p>Institut de beauté & bien-être<br>12 Av. Jean Moulin, 75014 Paris</p>
+      </div>
+      <div class="footer__col">
+        <h4>Soins</h4>
+        <a href="#soins">Épilation cire bio</a>
+        <a href="#soins">Soin du visage</a>
+        <a href="#soins">Massage</a>
+        <a href="#soins">Mains & vernis</a>
+      </div>
+      <div class="footer__col">
+        <h4>L'institut</h4>
+        <a href="#about">La maison</a>
+        <a href="#avis">Avis clients</a>
+        <a href="#pratique">Infos & accès</a>
+        <a href="#faq">Questions</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:+33145431414">01 45 43 14 14</a>
+        <a href="https://cocoonbeaute.com" target="_blank" rel="noopener">cocoonbeaute.com</a>
+        <p>Mar – Sam · 10h – 19h</p>
+      </div>
+    </div>
+    <div class="footer__wm" aria-hidden="true">Cocoon</div>
+    <div class="footer__bottom">
+      <span>© 2026 Cocoon Beauté & Bien-Être · Paris 14</span>
+      <span>Conçu comme un soin — avec attention.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== BOOKING MODAL ===================== -->
+<div class="modal" id="booking" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="bk-title">
+    <button class="modal__close" data-close aria-label="Fermer la réservation">
+      <span></span><span></span>
+    </button>
+
+    <div class="modal__panel" id="bk-panel">
+      <p class="eyebrow">Réservation · Paris 14</p>
+      <h2 id="bk-title" class="modal__title">Réservez votre <em>parenthèse.</em></h2>
+      <p class="modal__sub">Laissez-nous vos coordonnées — nous vous rappelons pour fixer le créneau qui vous convient.</p>
+
+      <form class="bk-form" id="bk-form" novalidate>
+        <div class="bk-row">
+          <div class="bk-field">
+            <input id="bk-prenom" name="prenom" type="text" required autocomplete="given-name" placeholder=" ">
+            <label for="bk-prenom">Prénom</label>
+            <span class="bk-err">Indiquez votre prénom</span>
+          </div>
+          <div class="bk-field">
+            <input id="bk-nom" name="nom" type="text" required autocomplete="family-name" placeholder=" ">
+            <label for="bk-nom">Nom</label>
+            <span class="bk-err">Indiquez votre nom</span>
+          </div>
+        </div>
+
+        <div class="bk-field">
+          <input id="bk-tel" name="tel" type="tel" inputmode="tel" required autocomplete="tel" maxlength="14" placeholder=" ">
+          <label for="bk-tel">Téléphone</label>
+          <span class="bk-err">Numéro à 10 chiffres requis</span>
+        </div>
+
+        <div class="bk-row">
+          <div class="bk-field bk-field--select">
+            <select id="bk-soin" name="soin">
+              <option value="Épilation cire bio">Épilation cire bio</option>
+              <option value="Soin découverte visage">Soin découverte visage</option>
+              <option value="Massage californien">Massage californien</option>
+              <option value="Mains & vernis">Mains &amp; vernis</option>
+              <option value="Autre / je ne sais pas encore">Autre / je ne sais pas encore</option>
+            </select>
+            <label for="bk-soin" class="is-static">Soin souhaité</label>
+            <span class="bk-caret" aria-hidden="true">▾</span>
+          </div>
+          <div class="bk-field">
+            <input id="bk-date" name="date" type="date" placeholder=" ">
+            <label for="bk-date" class="is-static">Date préférée</label>
+          </div>
+        </div>
+
+        <div class="bk-field">
+          <textarea id="bk-msg" name="message" rows="2" placeholder=" "></textarea>
+          <label for="bk-msg">Une précision ? (optionnel)</label>
+        </div>
+
+        <button class="btn btn--lg bk-submit" type="submit">
+          <span class="bk-submit__label">Envoyer ma demande</span>
+          <span class="arr">→</span>
+        </button>
+        <p class="bk-note">Réponse sous 24 h ouvrées — ou appelez le <a href="tel:+33145431414">01 45 43 14 14</a>.</p>
+      </form>
+
+      <div class="bk-success" id="bk-success" hidden>
+        <div class="bk-check" aria-hidden="true">
+          <svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path d="M15 27 l7 7 l15 -16"></path></svg>
+        </div>
+        <h3 class="bk-success__title">Merci, <span id="bk-name">à vous</span>.</h3>
+        <p class="bk-success__body">Votre demande est bien reçue. Nous vous rappelons au <b id="bk-ctel">—</b> pour confirmer votre <span id="bk-csoin">soin</span>.</p>
+        <button class="btn btn--ghost" type="button" data-close>Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<script src="image-slot.js"></script>
+<script>
+(function(){
+  // sticky nav state
+  var nav = document.getElementById('nav');
+  var onScroll = function(){ nav.classList.toggle('is-solid', window.scrollY > 24); };
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+  // mobile menu
+  var burger = document.getElementById('burger');
+  var sheet = document.getElementById('sheet');
+  burger.addEventListener('click', function(){ document.body.classList.toggle('menu-open'); });
+  sheet.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){ document.body.classList.remove('menu-open'); });
+  });
+
+  // reveal on scroll — IO with a rect-check fallback so content never stays hidden
+  var reveals = [].slice.call(document.querySelectorAll('.reveal'));
+  var rev = document.querySelector('.reviews');
+
+  function show(el){ el.classList.add('is-in'); }
+  function inView(el, m){
+    var r = el.getBoundingClientRect();
+    var h = window.innerHeight || document.documentElement.clientHeight;
+    return r.top < h * (1 - (m||0)) && r.bottom > 0;
+  }
+  function sweep(){
+    reveals = reveals.filter(function(el){
+      if(inView(el, 0.06)){ show(el); return false; } return true;
+    });
+    if(rev && inView(rev, 0)){ rev.classList.add('is-in'); rev = null; }
+  }
+
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ show(e.target); io.unobserve(e.target); } });
+    }, {threshold:0.12, rootMargin:'0px 0px -8% 0px'});
+    reveals.forEach(function(el){ io.observe(el); });
+    if(rev){
+      var io2 = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('is-in'); io2.unobserve(e.target); } });
+      }, {threshold:0.25});
+      io2.observe(rev);
+    }
+  }
+  // rect-based fallback (covers backgrounded iframes where IO may not fire)
+  sweep();
+  window.addEventListener('scroll', sweep, {passive:true});
+  window.addEventListener('resize', sweep, {passive:true});
+  window.addEventListener('load', sweep);
+  // ultimate safety: never leave anything invisible
+  setTimeout(function(){ document.querySelectorAll('.reveal:not(.is-in)').forEach(show);
+    if(rev) rev.classList.add('is-in'); }, 1600);
+
+  // accordion
+  document.querySelectorAll('.acc__item').forEach(function(item){
+    var q = item.querySelector('.acc__q');
+    var a = item.querySelector('.acc__a');
+    q.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.acc__item.open').forEach(function(o){
+        if(o!==item){ o.classList.remove('open'); o.querySelector('.acc__a').style.height='0px'; }
+      });
+      if(isOpen){ item.classList.remove('open'); a.style.height='0px'; }
+      else{ item.classList.add('open'); a.style.height = a.querySelector('.acc__a__in').offsetHeight + 'px'; }
+    });
+  });
+  window.addEventListener('resize', function(){
+    var open = document.querySelector('.acc__item.open');
+    if(open){ open.querySelector('.acc__a').style.height = open.querySelector('.acc__a__in').offsetHeight + 'px'; }
+  });
+
+  /* ===================== BOOKING MODAL ===================== */
+  var modal   = document.getElementById('booking');
+  var form    = document.getElementById('bk-form');
+  var panel   = document.getElementById('bk-panel');
+  var success = document.getElementById('bk-success');
+  var soinSel = document.getElementById('bk-soin');
+  var telIn   = document.getElementById('bk-tel');
+  var lastFocus = null;
+
+  function openModal(soin){
+    lastFocus = document.activeElement;
+    // always reset to a clean form view
+    panel.classList.remove('is-done');
+    success.hidden = true; form.hidden = false;
+    form.querySelectorAll('.bk-field.invalid').forEach(function(f){ f.classList.remove('invalid'); });
+    if(soin && soinSel){
+      var match = Array.prototype.slice.call(soinSel.options).some(function(o){
+        if(o.value === soin){ soinSel.value = soin; return true; } return false;
+      });
+      if(!match){ soinSel.value = 'Autre / je ne sais pas encore'; }
+    }
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden','false');
+    document.body.classList.add('modal-open');
+    document.body.classList.remove('menu-open');
+    setTimeout(function(){ var f = document.getElementById('bk-prenom'); if(f) f.focus(); }, 360);
+  }
+  function closeModal(){
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden','true');
+    document.body.classList.remove('modal-open');
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+    // reset to form view after the close transition
+    setTimeout(function(){
+      panel.classList.remove('is-done');
+      success.hidden = true; form.hidden = false;
+      form.querySelectorAll('.bk-field.invalid').forEach(function(f){ f.classList.remove('invalid'); });
+    }, 420);
+  }
+
+  // open triggers
+  document.querySelectorAll('[data-book]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      openModal(el.getAttribute('data-soin'));
+    });
+    // keyboard support for the soin rows (role=button)
+    if(el.getAttribute('role') === 'button'){
+      el.addEventListener('keydown', function(e){
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openModal(el.getAttribute('data-soin')); }
+      });
+    }
+  });
+
+  // close triggers
+  modal.querySelectorAll('[data-close]').forEach(function(el){
+    el.addEventListener('click', closeModal);
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && modal.classList.contains('is-open')) closeModal();
+  });
+
+  // live french phone formatting: 06 12 34 56 78
+  if(telIn){
+    telIn.addEventListener('input', function(){
+      var d = telIn.value.replace(/\D/g,'').slice(0,10);
+      telIn.value = d.replace(/(\d{2})(?=\d)/g, '$1 ').trim();
+      var field = telIn.closest('.bk-field');
+      if(field && field.classList.contains('invalid') && d.length === 10) field.classList.remove('invalid');
+    });
+  }
+  // clear field error as the user corrects it
+  form.querySelectorAll('input[required]').forEach(function(inp){
+    inp.addEventListener('input', function(){
+      var f = inp.closest('.bk-field');
+      if(f && f.classList.contains('invalid') && inp.value.trim()) f.classList.remove('invalid');
+    });
+  });
+
+  // validation + submit
+  function flag(id, bad){
+    var f = document.getElementById(id).closest('.bk-field');
+    f.classList.toggle('invalid', bad);
+    return !bad;
+  }
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var prenom = document.getElementById('bk-prenom').value.trim();
+    var nom    = document.getElementById('bk-nom').value.trim();
+    var telD   = telIn.value.replace(/\D/g,'');
+    var okP = flag('bk-prenom', !prenom);
+    var okN = flag('bk-nom', !nom);
+    var okT = flag('bk-tel', telD.length !== 10);
+    if(!(okP && okN && okT)){
+      var firstBad = form.querySelector('.bk-field.invalid input');
+      if(firstBad) firstBad.focus();
+      return;
+    }
+    // success state
+    document.getElementById('bk-name').textContent = prenom;
+    document.getElementById('bk-ctel').textContent = telIn.value;
+    document.getElementById('bk-csoin').textContent = soinSel.value.toLowerCase();
+    form.hidden = true; success.hidden = false;
+    panel.classList.add('is-done');
+    form.reset();
+  });
+
+  /* tactile press feedback on primary buttons */
+  document.querySelectorAll('.btn').forEach(function(b){
+    b.addEventListener('pointerdown', function(){ b.style.transform = 'scale(.97)'; });
+    ['pointerup','pointerleave','pointercancel'].forEach(function(ev){
+      b.addEventListener(ev, function(){ b.style.transform = ''; });
+    });
+  });
+
+  /* ===================== INTRO CURTAIN ===================== */
+  var intro = document.getElementById('intro');
+  if(intro){
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce){
+      if(intro.parentNode) intro.parentNode.removeChild(intro);
+    } else {
+      document.body.classList.add('intro-lock');
+      window.scrollTo(0,0);
+      var lifted = false;
+      var liftCurtain = function(){
+        if(lifted) return; lifted = true;
+        intro.classList.add('is-leaving');
+        document.body.classList.remove('intro-lock');
+        window.scrollTo(0,0);
+        var finish = function(){
+          if(intro.parentNode) intro.parentNode.removeChild(intro);
+          sweep();
+        };
+        var fired = false;
+        intro.addEventListener('transitionend', function(e){
+          if(e.propertyName === 'transform' && !fired){ fired = true; finish(); }
+        });
+        setTimeout(function(){ if(!fired){ fired = true; finish(); } }, 1300);
+      };
+      setTimeout(liftCurtain, 2350);
+    }
+  }
+})();
+</script>
+
+</body>
+</html>
