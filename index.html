@@ -263,8 +263,18 @@
       <div class="status reveal"><span class="pip"></span> Fermé · ouvre à 10:00 mercredi</div>
     </div>
     <div class="pratique__map reveal" data-d="1">
-      <image-slot class="img-slot map-slot" id="cocoon-map" shape="rect" fit="cover" placeholder="Plan / vue de la rue — 12 Av. Jean Moulin"></image-slot>
-      <div class="map-pin"><span class="dot"></span><span class="lbl">Cocoon · Paris 14</span></div>
+      <iframe
+        class="map-embed"
+        title="Plan d'accès — Cocoon, 12 avenue Jean Moulin, 75014 Paris"
+        src="https://www.google.com/maps?q=12%20Avenue%20Jean%20Moulin%2C%2075014%20Paris&z=16&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+      <div class="map-card">
+        <span class="map-card__k">Cocoon · Institut de beauté</span>
+        <span class="map-card__a">12 Av. Jean Moulin, 75014 Paris</span>
+        <a class="map-card__go" href="https://www.google.com/maps/dir/?api=1&destination=12+Avenue+Jean+Moulin+75014+Paris" target="_blank" rel="noopener">Itinéraire <span class="arr">→</span></a>
+      </div>
     </div>
   </div>
 </section>
